@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402569375649",
+    "project_id": "easysurvey-1e672",
+    "storage_bucket": "easysurvey-1e672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402569375649:android:986b5f7cc45b4761b165e0",
+        "android_client_info": {
+          "package_name": "com.example.easysurvey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402569375649-mapgqt38rguhcpcvp9d0vnjpns7skhf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbbgZXxPzGIeKQLcN-45zlnIbzJFxJV4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402569375649-mapgqt38rguhcpcvp9d0vnjpns7skhf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
