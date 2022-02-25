@@ -28,7 +28,9 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
 }
+
 
 @Composable
 fun HomepageButtons() {
@@ -44,7 +46,9 @@ fun HomepageButtons() {
         Button(
             onClick = {
                 Toast.makeText(context, text, duration).show()
+
             }
+
         ){ Text(text = "Create a Survey")}
         Button(
             onClick = {
@@ -52,6 +56,7 @@ fun HomepageButtons() {
             }
         ){ Text(text = "See Survey Results")}
     }
+
 }
 
 @Preview(showBackground = true)
