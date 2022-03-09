@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             EasySurveyTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-                    HomepageButtons()
+                    homepageButtons()
                 }
             }
         }
@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun HomepageButtons() {
+fun homepageButtons() {
     val text = "You clicked this button"
     val duration = Toast.LENGTH_LONG
     val context = LocalContext.current
@@ -56,7 +56,7 @@ fun HomepageButtons() {
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+fun defaultPreview() {
     EasySurveyTheme {
     }
 }
