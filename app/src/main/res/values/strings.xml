@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EasySurvey</string>
+    <string name="app_description">Making surveys easy.</string>
 </resources>
