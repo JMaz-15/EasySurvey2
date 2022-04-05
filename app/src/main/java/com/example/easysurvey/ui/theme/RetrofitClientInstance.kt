@@ -1,6 +1,6 @@
 package com.example.easysurvey.ui.theme
 
-object RetrofitClientIstance {
+object RetrofitClientInstance {
     private var retrofit: Retrofit? = null
     //add the url here
     private val BASE_URL = ""
