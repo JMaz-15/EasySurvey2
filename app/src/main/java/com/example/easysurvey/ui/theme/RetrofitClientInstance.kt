@@ -1,5 +1,8 @@
 package com.example.easysurvey.ui.theme
 
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+
 object RetrofitClientInstance {
     private var retrofit: Retrofit? = null
     //add the url here
