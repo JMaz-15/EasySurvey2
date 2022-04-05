@@ -6,6 +6,11 @@ import com.example.easysurvey.ui.theme.RetrofitClientInstance
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.withContext
+import retrofit2.awaitResponse
+
+interface IPlantService {
+    suspend fun fetchSurveys(): List<Survey>?
+}
 
 class SurveyService {
     suspend fun fetchSurveys(): List<Survey>? {
