@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EasySurvey</string>
+
+
+    <string name="take_survey">Take Survey></string>
+    <string name="create_survey">Create Survey</string>
+    <string name="survey_results">Survey Results</string>
 </resources>
