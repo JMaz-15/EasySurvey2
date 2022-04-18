@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EasySurvey</string>
+    <string name="surveyName">Survey Name</string>
+    <string name="Question">Enter Question</string>
 </resources>
