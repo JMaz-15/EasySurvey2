@@ -10,20 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasySurvey">
         <activity
-            android:name=".DisplayResults"
+            android:name=".DisplayResultsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".TakeSurveyActivity"
             android:exported="false" />
         <activity
-            android:name=".SearchPage"
+            android:name=".CreateSurveyActivity"
             android:exported="false" />
-        <activity
-            android:name=".TakeSurvey"
-            android:exported="false" />
-        <activity
-            android:name=".CreateActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.theme.CreateActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
